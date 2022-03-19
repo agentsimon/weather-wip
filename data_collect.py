@@ -25,5 +25,7 @@ def get_data():
         lat, lon, exclude, openweatherapi_key)
     response = requests.get(url)
     data = json.loads(response.text)
+    # to make data more readable
+    #data = json.dumps(data, indent=4) This prints the json in a readable format
     print(data)
     return data

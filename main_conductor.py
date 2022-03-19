@@ -25,7 +25,7 @@ data = data_collect.get_data()
 def start_conducting():
     # fetch_data()
     # data = data_collect.get_data()
-    display_data(0)
+    display_data(22)
     # display_conf.data2_display(data, hour_req=0)
 
 
