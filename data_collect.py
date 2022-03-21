@@ -5,8 +5,8 @@ from PIL import Image
 
 # airvisualapi_key = "your_airvisual_api_key"
 # openweatherapi_key = "your_openweather_api_key"
-airvisualapi_key = "bc090102-2784-4deb-bd33-a0ddc88d51d3"
-openweatherapi_key = "bb721ae074c3ed596e0244f8c488f8a9"
+airvisualapi_key = "Your_AirVisual_API_code" #https://www.iqair.com/vietnam/da-nang  create an account
+openweatherapi_key = "Youe_Openwaether_API_code" #https://openweathermap.org/api  create an account
 
 
 def get_data():
